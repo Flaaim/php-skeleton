@@ -1,0 +1,28 @@
+{
+    "name": "flaaim/php-skeleton",
+    "description": "php directory structure template",
+    "keywords": ["PHP", "example", "project", "skeleton"],
+    "homepage": "https://github.com/Flaaim/php-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Grigorev",
+            "email": "flaeim@gmail.com",
+            "homepage": "https:://sgrigo.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
