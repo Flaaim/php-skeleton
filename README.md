@@ -8,3 +8,7 @@
 ```
     composer require flaaim/php-skeleton
 ```
+2. Устанавливаем пакеты
+```
+    composer install
+```
