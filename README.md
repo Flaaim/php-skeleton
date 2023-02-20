@@ -2,13 +2,14 @@
 
 Простой скелет для php проектов.
 
-## Установка
+## Установка скелета
+1. Клонируем репозиторий
+```
+    git clone git@github.com:Flaaim/php-skeleton.git <project name>
+```
+2. Обновляем зависомости
+```
+    composer update
+```
 
-1. Composer
-```
-    composer require flaaim/php-skeleton
-```
-2. Устанавливаем пакеты
-```
-    composer install
-```
+

@@ -4,5 +4,5 @@ use App\Hello;
 
 require_once("../vendor/autoload.php");
 
-$hello = Hello::greetings();
+Hello::greeting();
 
